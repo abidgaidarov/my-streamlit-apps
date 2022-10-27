@@ -14,7 +14,7 @@ st.write("""
 
 st.write("#### 1. Импортируем и посмотрим первые 5 строчек датафрейма")
 
-tips = pd.read_csv('streamlit2/tips_data.csv')
+tips = pd.read_csv('tips_dataset/tips_data.csv')
 
 st.dataframe(tips.head(5))
 
